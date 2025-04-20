@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+  <!-- Background -->
+  <rect width="1000" height="650" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">AI Agent Architecture Decision Framework</text>
+  
+  <!-- Decision Flowchart -->
+  <rect x="50" y="70" width="900" height="530" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="10" />
+
+  <!-- Evaluation Criteria Section -->
+  <rect x="75" y="90" width="850" height="160" fill="#f0f7ff" stroke="#9ecae1" stroke-width="1" rx="5" />
+  <text x="100" y="115" font-family="Arial" font-size="16" font-weight="bold">Key Evaluation Factors</text>
+  
+  <!-- Criteria Grid -->
+  <line x1="75" y1="125" x2="925" y2="125" stroke="#9ecae1" />
+  <line x1="500" y1="90" x2="500" y2="250" stroke="#9ecae1" />
+
+  <!-- Left Column (Single Agent Favored) -->
+  <text x="287.5" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Single Agent with Tools Favored When:</text>
+  <text x="100" y="170" font-family="Arial" font-size="13">• System simplicity is prioritized</text>
+  <text x="100" y="190" font-family="Arial" font-size="13">• Consistent reasoning style is needed</text>
+  <text x="100" y="210" font-family="Arial" font-size="13">• Limited computational resources</text>
+  <text x="100" y="230" font-family="Arial" font-size="13">• Unified context maintenance is critical</text>
+
+  <!-- Right Column (Multi Agent Favored) -->
+  <text x="712.5" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Multi-Agent System Favored When:</text>
+  <text x="525" y="170" font-family="Arial" font-size="13">• Cognitive diversity benefits outcomes</text>
+  <text x="525" y="190" font-family="Arial" font-size="13">• Complex coordination between subtasks</text>
+  <text x="525" y="210" font-family="Arial" font-size="13">• Parallel processing improves efficiency</text>
+  <text x="525" y="230" font-family="Arial" font-size="13">• Cross-checking between agents adds value</text>
+
+  <!-- Decision Questions Section -->
+  <rect x="75" y="270" width="850" height="300" fill="#fff" stroke="#ddd" stroke-width="1" rx="5" />
+  <text x="100" y="295" font-family="Arial" font-size="16" font-weight="bold">Decision Framework Questions</text>
+  <line x1="75" y1="305" x2="925" y2="305" stroke="#ddd" />
+
+  <!-- Question Boxes -->
+  <!-- Q1 -->
+  <rect x="100" y="320" width="800" height="40" fill="#f5f5f5" stroke="#ddd" rx="5" />
+  <text x="110" y="345" font-family="Arial" font-size="13" font-weight="bold">1. Tool Autonomy:</text>
+  <text x="225" y="345" font-family="Arial" font-size="13">Do tools need independent reasoning or only execution capabilities?</text>
+  <text x="750" y="345" font-family="Arial" font-size="12" fill="#666">Independent → Multi-Agent</text>
+
+  <!-- Q2 -->
+  <rect x="100" y="370" width="800" height="40" fill="#f5f5f5" stroke="#ddd" rx="5" />
+  <text x="110" y="395" font-family="Arial" font-size="13" font-weight="bold">2. Coordination Complexity:</text>
+  <text x="275" y="395" font-family="Arial" font-size="13">How complex is the communication flow between tasks?</text>
+  <text x="750" y="395" font-family="Arial" font-size="12" fill="#666">Highly complex → Multi-Agent</text>
+
+  <!-- Q3 -->
+  <rect x="100" y="420" width="800" height="40" fill="#f5f5f5" stroke="#ddd" rx="5" />
+  <text x="110" y="445" font-family="Arial" font-size="13" font-weight="bold">3. Cognitive Diversity:</text>
+  <text x="275" y="445" font-family="Arial" font-size="13">Would different reasoning approaches improve outcomes?</text>
+  <text x="750" y="445" font-family="Arial" font-size="12" fill="#666">Yes → Multi-Agent</text>
+
+  <!-- Q4 -->
+  <rect x="100" y="470" width="800" height="40" fill="#f5f5f5" stroke="#ddd" rx="5" />
+  <text x="110" y="495" font-family="Arial" font-size="13" font-weight="bold">4. System Complexity Tolerance:</text>
+  <text x="310" y="495" font-family="Arial" font-size="13">How much system complexity can you manage?</text>
+  <text x="750" y="495" font-family="Arial" font-size="12" fill="#666">Low → Single Agent</text>
+
+  <!-- Q5 -->
+  <rect x="100" y="520" width="800" height="40" fill="#f5f5f5" stroke="#ddd" rx="5" />
+  <text x="110" y="545" font-family="Arial" font-size="13" font-weight="bold">5. Specialized Knowledge Domains:</text>
+  <text x="320" y="545" font-family="Arial" font-size="13">How distinct are the knowledge domains needed?</text>
+  <text x="750" y="545" font-family="Arial" font-size="12" fill="#666">Highly distinct → Consider hybrid</text>
+
+  <!-- Footer Section -->
+  <text x="500" y="620" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Note: Hybrid approaches are often optimal for complex systems, combining a lead orchestrating agent with specialized agents for key subtasks</text>
+</svg>
